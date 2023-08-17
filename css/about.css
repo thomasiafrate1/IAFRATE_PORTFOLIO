@@ -1,0 +1,264 @@
+.fenetre2{
+    min-height:100vh;
+    width: 100%;
+}
+
+#fenetre2-1{
+    padding-top: 120px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#fenetre2-1 h2{
+    justify-content: center;
+    text-align: center;
+    font-size: 50px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+#fenetre2-1 img{
+    width: 550px;
+}
+
+.pres{
+    padding-top: 120px;
+    margin: auto;
+    width: 75%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    letter-spacing: 2px;
+}
+
+.text{
+    width: 50%;
+    margin-right: 20px;
+}
+
+.pres-titre{
+    line-height: 50px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    font-size: 45px;
+}
+
+.pres-text{
+    font-weight: 200;
+    font-size: 28px;
+    letter-spacing: 2px;
+    line-height: 30px;
+}
+
+#fenetre2-2{
+    padding-top: 120px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    height: auto;
+}
+
+
+#fenetre2-2 h2{
+    justify-content: center;
+    text-align: center;
+    font-size: 50px;
+    font-weight: bold;
+    
+}
+
+.competences{
+    padding-top: 90px;
+    margin: auto;
+    width: 85%;;
+    justify-content: space-between;
+    letter-spacing: 2px;
+}
+
+.comp-html{
+    height: auto;
+    width: 45%;
+    padding: 0%;
+    position: relative;
+    
+    color: whitesmoke;
+    display: inline-block;
+    padding: 1.5%;
+}
+
+.comp-titre{
+    height: auto;
+    width: 45%;
+    padding: 0%;
+    position: relative;
+    
+    color: whitesmoke;
+    display: inline-block;
+    padding: 1.5%;
+}
+
+.html{
+    width: 80%;
+    position: relative;
+    height: 50px;
+}
+
+.barre{
+    width: 100%;
+    height: 40px;
+    border-radius: 10px;
+    background: #191919;
+    box-shadow: 0px 0px 25px rgb(0,0,0,.1);
+    position: relative;
+    overflow: hidden;
+}
+
+.barre-html{
+    position: absolute;
+    top: 10%;
+    left: 1%;
+    height: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all .4s ease;
+    width: 90%;
+    border-radius: 10px;
+    background: #c70039;
+}
+
+.barre-css{
+    position: absolute;
+    top: 10%;
+    left: 1%;
+    height: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all .4s ease;
+    width: 90%;
+    border-radius: 10px;
+    background: #c70039;
+}
+
+.barre-php{
+    position: absolute;
+    top: 10%;
+    left: 1%;
+    height: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all .4s ease;
+    width: 30%;
+    border-radius: 10px;
+    background: #c70039;
+}
+
+.barre-js{
+    position: absolute;
+    top: 10%;
+    left: 1%;
+    height: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all .4s ease;
+    width: 60%;
+    border-radius: 10px;
+    background: #c70039;
+}
+
+.barre-java{
+position: absolute;
+top: 10%;
+left: 1%;
+height: 80%;
+display: flex;
+align-items: center;
+justify-content: center;
+transition: all .4s ease;
+width: 60%;
+border-radius: 10px;
+background: #c70039;
+}
+
+
+
+
+.barre-sql{
+position: absolute;
+top: 10%;
+left: 1%;
+height: 80%;
+display: flex;
+align-items: center;
+justify-content: center;
+transition: all .4s ease;
+width: 70%;
+border-radius: 10px;
+background: #c70039;
+}
+
+
+
+@media only screen and (max-width: 768px) {
+#fenetre2-1 h2, #fenetre2-2 h2 {
+    font-size: 40px;
+}
+
+.pres-titre {
+    font-size: 30px;
+}
+
+.pres-text {
+    font-size: 20px;
+}
+
+.pres {
+    flex-direction: column;
+    align-items: center;
+}
+
+.text {
+    width: 100%;
+    margin-right: 0;
+    text-align: center;
+}
+
+#fenetre2-1 img {
+    width: 80%;
+    margin-top: 20px;
+}
+
+.competences {
+    flex-direction: column;
+    align-items: center;
+}
+
+.comp-html {
+    width: 100%;
+    margin-bottom: 20px;
+}
+}
+
+
+@media only screen and (max-width: 480px) {
+#fenetre2-1 h2, #fenetre2-2 h2 {
+    font-size: 30px;
+}
+
+.pres-titre {
+    font-size: 25px;
+}
+
+.pres-text {
+    font-size: 18px;
+}
+
+#fenetre2-1 img {
+    width: 100%;
+}
+}

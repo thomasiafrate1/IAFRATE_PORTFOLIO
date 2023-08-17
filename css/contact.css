@@ -1,0 +1,143 @@
+#fenetre4{
+    margin-top: 150px;
+    height: 100vh;
+    width: 100%;
+}
+
+.fenetre4-1 h2{
+    justify-content: center;
+    text-align: center;
+    font-size: 50px;
+    font-weight: bold;
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+
+
+.fenetre4-2{
+    width: 90%;
+    margin: auto;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.contacte{
+    height: 550px;
+    padding-right: 40px;
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+}
+
+.message{
+    font-size: 24px;
+    
+    font-weight: 400;
+    color: whitesmoke;
+    padding: 28px;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    width: auto;
+    align-items: center;
+    position: relative;
+}
+
+.input{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.input-texte{
+    width: 80%;
+    padding: 10px 20px;
+    margin: 14px;
+    border-radius: 8px;
+    outline: none;
+    background: #050505;
+    border: none;
+    color: whitesmoke;
+    
+    font-size: 16px;
+}
+
+.input-sujet{
+    width: 80%;
+    padding: 10px 20px;
+    margin: 24px;
+    border-radius: 8px;
+    outline: none;
+    background: #050505;
+    border: none;
+    color: whitesmoke;
+    
+    font-size: 16px;
+}
+
+.input-textarea{
+    width: 80%;
+    padding: 10px 20px;
+    margin: 15px;
+    height: 140px;
+    border-radius: 8px;
+    outline: none;
+    background: #050505;
+    border: none;
+    color: whitesmoke;
+    
+    font-size: 16px;
+}
+
+form button{
+    padding: 8px 24px;
+    
+    font-size: 20px;
+    background-color: #c70039;
+    color: whitesmoke;
+    opacity: .8;
+    margin: 20px;
+    cursor: pointer;
+    border: none;
+    border-radius: 8px;
+    transition: all .4s ease;
+}
+
+.soustitre{
+    margin-top: -50px;
+    text-align: center;
+    font-size: 24px;
+    
+    font-weight: 400;
+    color: whitesmoke;
+    padding: 28px;
+}
+
+.soustitre2{
+    margin-top: -30px;
+    text-align: center;
+    font-size: 24px;
+    
+    font-weight: 400;
+    color: whitesmoke;
+    padding: 28px;
+}
+
+.soustitre3{
+    margin-top: -150px;
+    text-align: center;
+    font-size: 24px;
+    
+    font-weight: 400;
+    color: whitesmoke;
+    padding: 28px;
+}

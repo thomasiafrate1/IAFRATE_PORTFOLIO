@@ -1,0 +1,152 @@
+#fenetre3{
+    height: 100vh;
+    width: 100%;
+}
+
+.fenetre3-1 h2{
+    justify-content: center;
+    text-align: center;
+    font-size: 50px;
+    font-weight: bold;
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+
+.fenetre3-2{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    width: 103%;
+}
+
+.projet {
+    height: 380px;
+    width: 30%;
+    margin: 20px;
+    border-radius: 8px;
+    position: relative;
+    overflow: hidden; 
+}
+
+.projet a {
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+.projet .img img {
+    height: auto;
+    width: 90%;
+    transition: all .65s ease;
+}
+
+.projet-date {
+    position: absolute;
+    left: 0;
+    bottom: 120px;
+    background: #c70039;
+    color: whitesmoke;
+    font-size: 18px;
+    text-align: center;
+    font-weight: 400;
+    
+    padding: 3px;
+    transition: all .4s ease;
+    width: 25%;
+    height: auto;
+}
+
+.projet-texte {
+    position: absolute; 
+    bottom: -22%; 
+    width: 90%;
+    height: 200px;
+    text-align: center;
+    vertical-align: center;
+    
+    color: whitesmoke;
+    background-color: #050505;
+    transition: all .5s ease; 
+}
+
+.projet-texte h3{
+    font-size: 25px;
+    font-weight: 400;
+    padding: 15px;
+}
+
+.projet-texte p{
+    display: flex;
+    font-size: 20px;
+    font-weight: 200;
+    padding: 15px;
+}
+
+
+.projet:hover .projet-texte {
+    bottom: 5%; 
+}
+
+
+
+@media (max-width: 1024px) and (min-width: 769px) { 
+    .fenetre3-1 h2 {
+        font-size: 42px;
+        padding-top: 70px;
+        padding-bottom: 70px;
+    }
+
+    .fenetre3-2 {
+        width: 100%; 
+    }
+
+    .projet {
+        width: 48%; 
+        margin: 1% 1%; 
+        height: auto;
+    }
+
+    .projet-texte {
+        bottom: -30%; 
+        height: auto;
+    }
+
+    .projet-texte h3 {
+        font-size: 22px;
+    }
+
+    .projet-texte p {
+        font-size: 18px;
+    }
+}
+
+
+@media (max-width: 480px) {
+    .fenetre3-1 h2 {
+        font-size: 30px;
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+
+    .fenetre3-2 {
+        width: 100%; 
+    }
+
+    .projet {
+        width: 90%; 
+        margin: 10px 5%;
+    }
+
+    .projet-texte {
+        bottom: -50%; 
+        height: auto;
+    }
+
+    .projet-texte h3 {
+        font-size: 20px;
+    }
+
+    .projet-texte p {
+        font-size: 16px;
+    }
+}

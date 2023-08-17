@@ -1,0 +1,257 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    
+}
+
+body{
+    background-color: rgb(22, 22, 22);
+    color: aliceblue;
+    font-family: 'Arial', sans-serif;
+    overflow-x: hidden;
+
+    
+    
+}
+.NavBar{
+    position: fixed;
+    width: 100%;
+    
+    display: flex;
+    justify-content: center;
+    height: 100px;
+    align-items: center;
+    z-index: 10;
+    
+}
+
+.nav ul{
+    display: flex;
+    margin-left: 50px;
+    font-size: 25px;
+    letter-spacing: 8px;
+}
+
+.nav ul li a{
+    margin-right: 40px;
+    color: rgb(136, 136, 136);
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.nav ul li a:hover{
+    color: aliceblue;
+    transition: all 0.2s ease-in-out;
+}
+
+.thomas{
+    position: absolute;
+    right: -400px;
+    bottom: 0;
+    height: auto;
+    width: 1200px;
+}
+
+#constellationCanvas {
+    position: absolute;
+    top: 0;
+    left: 0;
+
+}
+
+body.scrolled {
+    transform: translateY(-100vh);
+    transition: transform 0.5s ease;
+}
+
+
+.jesuis{
+    display: flex;
+}
+
+
+
+#jobTitle {
+    transition: opacity 0.5s ease-in-out;
+    opacity: 1;
+    color: #c70039;
+    font-weight: 100;
+}
+
+.jobtitle1{
+    margin-right: 9px;
+    font-weight: 80;
+}
+
+#presentation {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.jesuis {
+    display: flex;
+    align-items: center; 
+    font-size: 25px;
+    font-weight: 500;
+}
+
+#presentation h1{
+    font-size: 60px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.tqt{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.tqtthomas{
+    margin-right: 9px;
+    color: #c70039;
+}
+
+
+.socialMedias{
+    width: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    top: 42vh;
+    left: 3vh;
+    
+}
+
+.socialMedias a{
+    margin-bottom: 20px;
+}
+
+.socialMedias a i:hover{
+    font-size: 25px;
+    color: aliceblue;
+}
+
+.socialMedias a i{
+    font-size: 20px;
+    margin-right: 20px;
+    color: rgb(136, 136, 136);
+    transition: all 0.2s ease-in-out;
+}
+
+#constellationCanvas{
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+
+
+
+.logo {
+    left: 3vh;
+    top: 3vh;
+    position: fixed;  
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 5px solid #fff;
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.3);
+}
+
+
+.logo h1 {
+    margin: 0;
+    color: #fff;
+    font-size: 36px;
+    font-weight: bold;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    font-family: 'Open Sans', sans-serif; 
+    transform: skewX(-20deg);
+}
+
+
+
+@media (max-width: 768px) {
+    .NavBar {
+        margin-top: 50px;
+        flex-direction: column;
+    }
+
+    .nav ul {
+        flex-direction: column;
+        align-items: center;
+        margin-top: 10px;
+    }
+
+    .nav ul li a {
+        margin-right: 0;
+        margin-bottom: 15px;
+    }
+
+    #presentation h1 {
+        font-size: 50px;
+    }
+
+    .jesuis {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .socialMedias {
+        top: 80vh;
+        left: 50%;
+        transform: translateX(-50%);
+        flex-direction: row;
+    }
+
+    .socialMedias a i {
+        margin-right: 15px;
+    }
+}
+
+
+@media (max-width: 480px) {
+    .NavBar {
+        margin-top: 50px;
+        flex-direction: column;
+    }
+
+    .nav ul {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .nav ul li a {
+        margin-bottom: 15px;
+    }
+
+    #presentation h1 {
+        font-size: 40px;
+    }
+
+    .jesuis {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .socialMedias {
+        top: 80vh;
+        left: 50%;
+        transform: translateX(-50%);
+        flex-direction: row;
+    }
+
+    .socialMedias a i {
+        margin-right: 15px;
+    }
+}
